@@ -452,7 +452,7 @@ class ChapterGUI(Gtk.Window):
     """
 
     def __init__(self):
-        super().__init__(title="ChapterGUI — Chapters / Cover Art / Metadata")
+        super().__init__(title="Audiobook Editor — Chapters / Cover Art / Metadata")
         self.set_border_width(10)
         self.set_default_size(1260, 820)
 
